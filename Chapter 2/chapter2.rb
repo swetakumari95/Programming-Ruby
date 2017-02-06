@@ -68,3 +68,29 @@ stmt = 'Perl'
 if stmt =~ /Perl|Python/
 	puts "Scripting language is #{stmt}"
 end
+
+
+#code snippet 9, using yield
+def call_block
+	puts "Start of method"
+	yield
+	yield
+	puts "End of method"
+end
+call_block {puts "In the block"}
+
+
+#code snippet 10, iterators
+animals = %w(ant bee cat dog)
+animals.each {|animal| puts animal}
+
+
+#code snippet 11, looping constructs
+[ 'cat', 'dog', 'horse' ].each {|name| print name, " " }
+5.times { print "*" }
+3.upto(6) {|i| print i }
+('a'..'e').each {|char| print char }
+
+
+#code snippet 12, printf statement
+printf("Number: %5.2f,\nString: %s\n", 1.23, "hello")
