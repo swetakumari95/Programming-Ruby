@@ -1,4 +1,4 @@
-#Chapter 3, classes, objects and variables
+#Chapter 4, containers, blocks and iterators
 #arrays a[start, count]
 
 a = [1, 3, 5, 7, 9]

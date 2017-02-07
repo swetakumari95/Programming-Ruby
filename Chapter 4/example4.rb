@@ -1,4 +1,4 @@
-#Chapter 3, classes, objects and variables
+#Chapter 4, containers, blocks and iterators
 #using []= with multiple substitutions
 
 a = [1,3,5,7,9]

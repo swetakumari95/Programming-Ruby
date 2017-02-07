@@ -1,4 +1,4 @@
-#Chapter 3, classes, objects and variables
+#Chapter 4, containers, blocks and iterators
 #hashes, list of key=>value pairs
 
 h = {'dog'=>'canine', 'cat'=>'feline', 'donkey'=>'asinine'}
